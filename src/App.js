@@ -12,7 +12,8 @@ import "./App.css";
 // import Render from "./components/Render";
 // import FindDOMNode from "./components/findDOMNode";
 // import Form from "./components/Form";
-import Form2 from "./components/Form2";
+// import Form2 from "./components/Form2";
+import Form3 from "./components/Form3";
 
 function App() {
     return (
@@ -41,7 +42,9 @@ function App() {
 
             {/* <Form></Form> */}
 
-            <Form2></Form2>
+            {/* <Form2></Form2> */}
+
+            <Form3></Form3>
         </div>
     );
 }
