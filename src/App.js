@@ -1,21 +1,22 @@
 import React from "react";
 import "./App.css";
-import Hello from "./components/Hello";
-import Welcome from "./components/Welcome";
-import Arrow from "./components/Arrow";
-import State from "./components/State";
-import SetState from "./components/SetState";
-import Bootstrap from "./components/Bootstrap";
-import Condition1 from "./components/Condition1";
-import VariableElement from "./components/VariableElement";
-import Refresh from "./components/Refresh";
-import Render from "./components/Render";
-import FindDOMNode from "./components/findDOMNode";
+// import Hello from "./components/Hello";
+// import Welcome from "./components/Welcome";
+// import Arrow from "./components/Arrow";
+// import State from "./components/State";
+// import SetState from "./components/SetState";
+// import Bootstrap from "./components/Bootstrap";
+// import Condition1 from "./components/Condition1";
+// import VariableElement from "./components/VariableElement";
+// import Refresh from "./components/Refresh";
+// import Render from "./components/Render";
+// import FindDOMNode from "./components/findDOMNode";
+import Form from "./components/Form";
 
 function App() {
   return (
     <div className="App">
-      <Hello name="Shishir" age="26"></Hello>
+      {/* <Hello name="Shishir" age="26"></Hello>
 
       <Welcome name="Shishir" age="26"></Welcome>
 
@@ -35,7 +36,9 @@ function App() {
 
       <Render></Render>
 
-      <FindDOMNode></FindDOMNode>
+      <FindDOMNode></FindDOMNode> */}
+
+      <Form></Form>
     </div>
   );
 }

@@ -3,8 +3,8 @@ import ReactDOM from "react-dom";
 
 export default class findDOMNode extends Component {
   changeImage = () => {
-    let container = document.getElementById("myIMG");
-    ReactDOM.findDOMNode(container).src = "react2.png";
+    let component = document.getElementById("myIMG");
+    ReactDOM.findDOMNode(component).src = "react2.png";
   };
 
   render() {
