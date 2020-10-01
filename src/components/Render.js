@@ -8,7 +8,8 @@ export default class Render extends Component {
     let callback = () => {
       alert("Done");
     };
-    ReactDOM.render(element, container, callback);
+    // ReactDOM.render(element, container, callback);
+    ReactDOM.hydrate(element, container, callback);
   };
 
   render() {
