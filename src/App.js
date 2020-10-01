@@ -10,6 +10,7 @@ import Condition1 from "./components/Condition1";
 import VariableElement from "./components/VariableElement";
 import Refresh from "./components/Refresh";
 import Render from "./components/Render";
+import FindDOMNode from "./components/findDOMNode";
 
 function App() {
   return (
@@ -33,6 +34,8 @@ function App() {
       <Refresh></Refresh>
 
       <Render></Render>
+
+      <FindDOMNode></FindDOMNode>
     </div>
   );
 }
