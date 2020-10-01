@@ -5,6 +5,7 @@ import Welcome from "./components/Welcome";
 import Arrow from "./components/Arrow";
 import State from "./components/State";
 import SetState from "./components/SetState";
+import Bootstrap from "./components/Bootstrap";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
       <State></State>
 
       <SetState></SetState>
+
+      <Bootstrap></Bootstrap>
     </div>
   );
 }
