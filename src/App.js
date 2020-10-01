@@ -8,6 +8,7 @@ import SetState from "./components/SetState";
 import Bootstrap from "./components/Bootstrap";
 import Condition1 from "./components/Condition1";
 import VariableElement from "./components/VariableElement";
+import Refresh from "./components/Refresh";
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
       <Condition1></Condition1>
 
       <VariableElement></VariableElement>
+
+      <Refresh></Refresh>
     </div>
   );
 }
