@@ -17,6 +17,34 @@ export default class MultiImputForm extends Component {
         let inputValues = event.target.value;
 
         this.setState({ [inputNames]: inputValues });
+
+        // Validation
+        if (inputNames === "fname") {
+            let namePattern = /^([a-zA-Z]{3,30}s*)+/;
+            if (!namePattern.test(inputValues)) {
+                this.setState({ fname: "First name is not valid." });
+            }
+        }
+        if (inputNames === "lname") {
+            let namePattern = /^([a-zA-Z]{3,30}s*)+/;
+            if (!namePattern.test(inputValues)) {
+                this.setState({ lname: "Last name is not valid." });
+            }
+        }
+
+        if (inputNames === "email") {
+            let emailPattern = /\S+@\S+\.\S+/;
+            if (!emailPattern.test(inputValues)) {
+                this.setState({ email: "Email is not valid" });
+            }
+        }
+
+        if (inputNames === "mobile") {
+            let mobilePattern = /^(?:\+?(?:88|01)?)(?:\d{11}|\d{13})$/;
+            if (!mobilePattern.test(inputValues)) {
+                this.setState({ mobile: "Mobile no is not valid" });
+            }
+        }
     };
 
     onSubmitHandler = () => {
