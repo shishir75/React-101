@@ -6,6 +6,7 @@ import Arrow from "./components/Arrow";
 import State from "./components/State";
 import SetState from "./components/SetState";
 import Bootstrap from "./components/Bootstrap";
+import Condition1 from "./components/Condition1";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
       <SetState></SetState>
 
       <Bootstrap></Bootstrap>
+
+      <Condition1></Condition1>
     </div>
   );
 }
