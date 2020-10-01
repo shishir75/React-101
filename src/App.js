@@ -7,6 +7,7 @@ import State from "./components/State";
 import SetState from "./components/SetState";
 import Bootstrap from "./components/Bootstrap";
 import Condition1 from "./components/Condition1";
+import VariableElement from "./components/VariableElement";
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
       <Bootstrap></Bootstrap>
 
       <Condition1></Condition1>
+
+      <VariableElement></VariableElement>
     </div>
   );
 }
