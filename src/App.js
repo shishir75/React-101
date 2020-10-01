@@ -9,6 +9,7 @@ import Bootstrap from "./components/Bootstrap";
 import Condition1 from "./components/Condition1";
 import VariableElement from "./components/VariableElement";
 import Refresh from "./components/Refresh";
+import Render from "./components/Render";
 
 function App() {
   return (
@@ -30,6 +31,8 @@ function App() {
       <VariableElement></VariableElement>
 
       <Refresh></Refresh>
+
+      <Render></Render>
     </div>
   );
 }
