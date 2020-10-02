@@ -9,6 +9,7 @@ export default class MultiImputForm extends Component {
             lname: "",
             email: "",
             mobile: "",
+            desc: "",
         };
     }
 
@@ -98,6 +99,15 @@ export default class MultiImputForm extends Component {
                                         placeholder="Enter Mobile Number"
                                     ></input>
                                 </div>
+                                <div className="form-group">
+                                    <label>Mobile Number</label>
+                                    <textarea
+                                        name="desc"
+                                        onChange={this.onChangeHandler}
+                                        className="form-control"
+                                        placeholder="Enter Description"
+                                    ></textarea>
+                                </div>
                                 <input
                                     type="submit"
                                     value="Submit"
@@ -110,6 +120,8 @@ export default class MultiImputForm extends Component {
                             <h5>Last Name : {this.state.lname}</h5>
                             <h5>Email Address : {this.state.email}</h5>
                             <h5>Mobile Number : {this.state.mobile}</h5>
+                            <h5>Description</h5>
+                            <p>{this.state.desc}</p>
                         </div>
                     </div>
                 </div>
