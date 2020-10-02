@@ -15,7 +15,8 @@ import "./App.css";
 // import Form2 from "./components/Form2";
 // import Form3 from "./components/Form3";
 // import MultiImputForm from "./components/MultiImputForm";
-import List from "./components/List";
+// import List from "./components/List";
+import JSONList from "./components/JSONList";
 
 function App() {
     return (
@@ -50,7 +51,9 @@ function App() {
 
             {/* <MultiImputForm></MultiImputForm> */}
 
-            <List></List>
+            {/* <List></List> */}
+
+            <JSONList></JSONList>
         </div>
     );
 }
