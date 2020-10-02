@@ -10,6 +10,7 @@ export default class MultiImputForm extends Component {
             email: "",
             mobile: "",
             desc: "",
+            division: "",
         };
     }
 
@@ -100,13 +101,35 @@ export default class MultiImputForm extends Component {
                                     ></input>
                                 </div>
                                 <div className="form-group">
-                                    <label>Mobile Number</label>
+                                    <label>Description</label>
                                     <textarea
                                         name="desc"
                                         onChange={this.onChangeHandler}
                                         className="form-control"
                                         placeholder="Enter Description"
                                     ></textarea>
+                                </div>
+                                <div className="form-group">
+                                    <label>Select Divison</label>
+                                    <select
+                                        className="form-control"
+                                        name="division"
+                                        onChange={this.onChangeHandler}
+                                        value={this.state.division}
+                                    >
+                                        <option value="" disabled>
+                                            Select a Division
+                                        </option>
+                                        <option value="Dhaka">Dhaka</option>
+                                        <option value="Rangpur">Rangpur</option>
+                                        <option value="Rajshahi">
+                                            Rajshahi
+                                        </option>
+                                        <option value="Barisal">Barisal</option>
+                                        <option value="Chittagong">
+                                            Chittagong
+                                        </option>
+                                    </select>
                                 </div>
                                 <input
                                     type="submit"
@@ -122,6 +145,7 @@ export default class MultiImputForm extends Component {
                             <h5>Mobile Number : {this.state.mobile}</h5>
                             <h5>Description</h5>
                             <p>{this.state.desc}</p>
+                            <h5>Division: {this.state.division}</h5>
                         </div>
                     </div>
                 </div>
