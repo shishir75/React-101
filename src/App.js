@@ -1,5 +1,5 @@
 import React from "react";
-// import "./App.css";
+import "./App.css";
 // import Hello from "./components/Hello";
 // import Welcome from "./components/Welcome";
 // import Arrow from "./components/Arrow";
@@ -14,7 +14,8 @@ import React from "react";
 // import Form from "./components/Form";
 // import Form2 from "./components/Form2";
 // import Form3 from "./components/Form3";
-import MultiImputForm from "./components/MultiImputForm";
+// import MultiImputForm from "./components/MultiImputForm";
+import List from "./components/List";
 
 function App() {
     return (
@@ -47,7 +48,9 @@ function App() {
 
             {/* <Form3></Form3> */}
 
-            <MultiImputForm></MultiImputForm>
+            {/* <MultiImputForm></MultiImputForm> */}
+
+            <List></List>
         </div>
     );
 }
