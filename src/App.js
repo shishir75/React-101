@@ -6,7 +6,7 @@ import "./App.css";
 // import State from "./components/State";
 // import SetState from "./components/SetState";
 // import Bootstrap from "./components/Bootstrap";
-// import Condition1 from "./components/Condition1";
+import Condition1 from "./components/Condition1";
 // import VariableElement from "./components/VariableElement";
 // import Refresh from "./components/Refresh";
 // import Render from "./components/Render";
@@ -16,32 +16,32 @@ import "./App.css";
 // import Form3 from "./components/Form3";
 // import MultiImputForm from "./components/MultiImputForm";
 // import List from "./components/List";
-import JSONList from "./components/JSONList";
+// import JSONList from "./components/JSONList";
 
 function App() {
     return (
         <div className="App">
-            {/* <Hello name="Shishir" age="26"></Hello>
+            {/* <Hello name="Shishir" age="26"></Hello> */}
 
-            <Welcome name="Shishir" age="26"></Welcome>
+            {/* <Welcome name="Shishir" age="26"></Welcome> */}
 
-            <Arrow></Arrow>
+            {/* <Arrow></Arrow> */}
 
-            <State></State>
+            {/* <State></State> */}
 
-            <SetState></SetState>
+            {/* <SetState></SetState> */}
 
-            <Bootstrap></Bootstrap>
+            {/* <Bootstrap></Bootstrap> */}
 
             <Condition1></Condition1>
 
-            <VariableElement></VariableElement>
+            {/* <VariableElement></VariableElement> */}
 
-            <Refresh></Refresh>
+            {/* <Refresh></Refresh> */}
 
-            <Render></Render>
+            {/* <Render></Render> */}
 
-            <FindDOMNode></FindDOMNode> */}
+            {/* <FindDOMNode></FindDOMNode> */}
 
             {/* <Form></Form> */}
 
@@ -53,7 +53,7 @@ function App() {
 
             {/* <List></List> */}
 
-            <JSONList></JSONList>
+            {/* <JSONList></JSONList> */}
         </div>
     );
 }
