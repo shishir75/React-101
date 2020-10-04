@@ -3,7 +3,7 @@ import "./App.css";
 // import Hello from "./components/Hello";
 // import Welcome from "./components/Welcome";
 // import Arrow from "./components/Arrow";
-// import State from "./components/State";
+import State from "./components/State";
 // import SetState from "./components/SetState";
 // import Bootstrap from "./components/Bootstrap";
 import Condition1 from "./components/Condition1";
@@ -27,7 +27,7 @@ function App() {
 
             {/* <Arrow></Arrow> */}
 
-            {/* <State></State> */}
+            <State></State>
 
             {/* <SetState></SetState> */}
 
